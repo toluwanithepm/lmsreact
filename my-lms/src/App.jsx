@@ -2,9 +2,9 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import CourseList from './components/CourseList';
-import Lesson from './components/Lesson';
-import Quiz from './components/Quiz';
+import CourseList from '.src/components/CourseList';
+import Lesson from '.src/components/Lesson';
+import Quiz from '.src/components/Quiz';
 
 const App = () => {
   return (
